@@ -14,11 +14,13 @@
 
         <div class="container">
 
-          <a href="#" class="logo">Restaurante MiParrilla</a>
+          <div id="log">
+          <a href="#" class="logo">Restaurante MiParrilla</a></div>
 
       <ul class="nav-links">
-
-        <li><a href="#">Inicio</a></li>
+       
+        <div id="inicio">
+        <li><a href="#"">Inicio</a></li></div>
         <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
         <li><a href="#video">video parrilla</a></li>
         <li><a href="#formulario-form">Formulario</a></li>
@@ -81,18 +83,18 @@
     <div class="form-container">
 
       <div id="formulario-form">
-    <form>
+    <form id="contactForm">
 
       <h1>Formulario de Contacto</h1>
 
-      <label>Nombre</label>
-      <input type="text" name="nombre" placeholder="Nombre" required>
+      <label id="nombre">Nombre</label>
+      <input type="text" name="nombre" placeholder="Nombre" id="nombre" required>
 
-      <label>Mail</label>
-      <input type="email" name="mail" placeholder="Mail" required>
+      <label id="mail">Mail</label>
+      <input type="email" name="mail" placeholder="Mail" id="mensaje" required>
 
-      <label>Mensaje</label>
-      <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+      <label id="mensaje">Mensaje</label>
+      <textarea name="mensaje" placeholder="Mensaje" id="mensaje" required></textarea>
 
     <input type="submit" value="Enviar">
     </form>
@@ -139,6 +141,7 @@
 </div>
 
 </footer>
+<script src="script.js"></script>
 
 </body>
 </html>
