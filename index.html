@@ -83,11 +83,12 @@
     <div class="form-container">
 
       <div id="formulario-form">
-    <form id="contactForm">
+    <form id="contactForm" action="https://formspree.io/f/xpwzvzbn"
+    method="POST">
 
       <h1>Formulario de Contacto</h1>
 
-      <label id="nombre">Nombre</label>
+      <label id="nombre">Nombre Completo</label>
       <input type="text" name="nombre" placeholder="Nombre" id="nombre" required>
 
       <label id="mail">Mail</label>
@@ -102,9 +103,30 @@
   </div>
 
 </div>
+
+<div>
+    <h2>Menu</h2>
+
+    <div id="comidasAPI"></div>
+    </div>
+
+    <div>
+      <h2>comidas callejeras</h2>
+      <div id="comidasJson"></div>
+
+    </div>
+
+<div>
+  <h2>Menu especial</h2>
+    <div id="comidaId"></div>
+  </div>
+
+
 <div id="video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/46uSpaWlqcE?si=Z-wWoNzmHM_SDg4I&amp;controls=0&amp;start=58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+   
 
 <footer class="final">
 
@@ -112,7 +134,7 @@
 
       <div id="sobre-nosotros">
 
-    <h2>Sobre nosotros</h2>
+    <h2 id="acercaNos">Sobre nosotros</h2>
 
   <p>
     **Bienvenidos a Miparrilla**  
@@ -130,7 +152,8 @@
 
   <h2>Newsletter</h2>
 
-  <form id="Newsletter-form">
+  <form id="Newsletter-form" action="https://formspree.io/f/xvgoeolj"
+  method="POST">
     <input type="email" name="email" placeholder="Email" required>
     <input type="submit" value="Enviar">
 
