@@ -141,13 +141,21 @@ label{
     margin-bottom: 10px;
     font-size: 10px;
 }
-#container {
+.container1{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   #comidasAPI, #comidasJson, #comidaId {
     flex: 1 1 300px;
     margin: 10px;
+    text-align: center;
+  }
+  #comidasAPI img, #comidasJson img, #comidaId img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
   }
 
 
